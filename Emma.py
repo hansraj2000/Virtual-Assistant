@@ -599,7 +599,7 @@ class MainThread(QThread):
                 speak(about)
             
             elif "hello" in self.query or "hello Emma" in self.query:
-                hel = "Hello Yash Sir ! How May i Help you.."
+                hel = "Hello Hans Raj Sir ! How May i Help you.."
                 speak(hel)
             
             elif "your name" in self.query or "sweet name" in self.query:
